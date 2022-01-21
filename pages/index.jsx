@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Banner from "../components/Banner";
 import Posts from "../components/Posts";
-import { sanityCLient, urlFor } from "../sanity";
+import { sanityCLient } from "../sanity";
 
 export default function Home({ posts }) {
   if (!posts) return null;
@@ -9,7 +9,7 @@ export default function Home({ posts }) {
   return (
     <div className="">
       <Head>
-        <title>Create Next App</title>
+        <title>Medium Blog</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="max-w-7xl mx-auto">
