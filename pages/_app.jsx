@@ -3,10 +3,10 @@ import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
+    <main className="max-w-7xl mx-auto">
       <Header />
       <Component {...pageProps} />
-    </>
+    </main>
   );
 }
 

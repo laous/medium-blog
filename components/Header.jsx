@@ -9,17 +9,17 @@ const Header = () => {
           <span className="text-3xl font-bold cursor-pointer">Medium</span>
         </Link>
         <ul className="hidden md:inline-flex gap-5 items-center">
-          <li>About</li>
-          <li>Contact</li>
-          <li className="text-white bg-green-600 px-4 py-1 rounded-full">
+          <li className="cursor-pointer">About</li>
+          <li className="cursor-pointer">Contact</li>
+          <li className="text-white bg-green-600 px-4 py-1 rounded-full cursor-pointer">
             Follow
           </li>
         </ul>
       </div>
 
       <ul className="flex gap-5 items-center text-green-600">
-        <li>Sign in</li>
-        <li className="border border-green-600 px-4 py-1 rounded-full">
+        <li className="cursor-pointer">Sign in</li>
+        <li className="border border-green-600 px-4 py-1 rounded-full cursor-pointer">
           Get Started
         </li>
       </ul>
